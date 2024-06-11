@@ -3,7 +3,7 @@ import random
 
 length = int(input("Enter desired password length: "))
 
-character_list = "AbcdeFgHhIijJkKlLmMn1234567890!@#$%^&*()-_"
+character_list = list(string.printable)
 
 password = []
 
